@@ -2,12 +2,10 @@ let numero;
 
 function mutiplicationTable(num, lim = 10){
 
-
-    num = parseInt(num);
-    
-    if(num == NaN){
+    //if(num == Nan){
+    if(Number.isNaN(num)){
         throw new TypeError("Valor del parámetro no válido.");
-    }else if(lim == NaN || lim <= 0 ){
+    }else if(Number.isNaN(lim) || lim <= 0 ){
         lim = 10;
     }
 
