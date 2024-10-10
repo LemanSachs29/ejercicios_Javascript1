@@ -24,3 +24,4 @@ mutiplicationTable(numero, lim);
 }catch(e){
     console.log(e.message);
 }
+
